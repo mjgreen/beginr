@@ -4,8 +4,8 @@ Title: Help Beginners
 Version: 0.1.0
 Author: Matt Green
 Maintainer: Matt Green <mgreen@bournemouth.ac.uk>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: This package provides datasets and functions to help R beginners
+    beginr is made to help specifically with BU's R for beginners course in P101 in October 2022
 License: MIT + file LICENSE
 LazyData: true
 Depends:
