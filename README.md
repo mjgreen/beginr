@@ -26,7 +26,7 @@ Generate the `dat_long` data using the command
 `manufacture_ldt_long_data()`
 
 ``` r
-library(beginr)
+library("beginr")
 dat_long <- manufacture_ldt_long_data()
 dat_long
 #> # A tibble: 200 × 6
@@ -44,3 +44,16 @@ dat_long
 #> 10 S005     26 Monolingual Non-Word   401.    83
 #> # … with 190 more rows
 ```
+
+See that the data set is in the right form for `ggplot`
+
+``` r
+require("ggplot2")
+#> Loading required package: ggplot2
+ggplot(dat_long, aes(x = rt, fill = condition)) +
+  geom_density(alpha = 0.75)+
+  scale_x_continuous(name = "Reaction time (ms)")+
+  scale_fill_discrete(name = "Condition")
+```
+
+<img src="man/figures/README-plotDensityByCondition-1.png" width="100%" />
