@@ -1,7 +1,7 @@
 Package: beginr
 Type: Package
 Title: Help Beginners
-Version: 0.1.5
+Version: 0.2.0
 Author: Matt Green
 Maintainer: Matt Green <mgreen@bournemouth.ac.uk>
 Description: This package provides datasets and functions to help R beginners
