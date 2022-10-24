@@ -5,6 +5,7 @@
 \alias{ldt_data}
 \title{Lexical Decision Task Example Data}
 \format{
+## `ldt_data`
 A data frame with 100 rows and 7 variables:
 \describe{
    \item{id}{Participant ID}

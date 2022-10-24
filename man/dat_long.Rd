@@ -5,6 +5,7 @@
 \alias{dat_long}
 \title{Lexical Decision Task Example Data in long form}
 \format{
+## `dat_long`
 A data frame with 200 rows and 6 variables:
 \describe{
    \item{id}{Participant ID}
