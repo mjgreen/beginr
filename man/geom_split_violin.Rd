@@ -44,6 +44,3 @@ geom_split_violin(
 \description{
 Split Violin Plot
 }
-\examples{
-ggplot(ggplot2::diamonds, aes(cut, carat)) + geom_split_violin()
-}

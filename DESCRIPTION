@@ -1,7 +1,7 @@
 Package: beginr
 Type: Package
 Title: Help Beginners
-Version: 0.2.0
+Version: 0.2.1
 Author: Matt Green
 Maintainer: Matt Green <mgreen@bournemouth.ac.uk>
 Description: This package provides datasets and functions to help R beginners
@@ -15,10 +15,13 @@ Imports:
     readr,
     dplyr,
     forcats,
-    tidyr
+    tidyr,
+    ggridges,
+    ggplot2,
+    plyr,
+    scales
 RoxygenNote: 7.2.1
 Encoding: UTF-8
 Suggests: 
-    testthat (>= 3.0.0),
-    ggplot2
+    testthat (>= 3.0.0)
 Config/testthat/edition: 3

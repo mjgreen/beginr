@@ -38,6 +38,3 @@ geom_flat_violin(
 \description{
 Flat Violin Plot
 }
-\examples{
-ggplot(iris, aes(Species, Sepal.Width)) + geom_flat_violin()
-}
