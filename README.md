@@ -19,3 +19,10 @@ You can install the development version of `beginr` from
 # install.packages("devtools")
 devtools::install_github("mjgreen/beginr")
 ```
+
+## Details
+
+provides:
+
+1. ldt_data
+2. dat_long
