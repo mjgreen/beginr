@@ -1,15 +1,12 @@
 #' Generate long form lexical decision data
 #'
 #' @returns A rectangular dataset with class tibble
+#'
 #' @examples
 #' dat_long = manufacture_ldt_long_data()
 #' str(dat_long)
 #' summary(dat_long)
-#' require("ggplot2")
-#' ggplot(dat_long, aes(x = rt, fill = condition)) +
-#'   geom_density(alpha = 0.75)+
-#'   scale_x_continuous(name = "Reaction time (ms)")+
-#'   scale_fill_discrete(name = "Condition")
+#'
 #' @export
 manufacture_ldt_long_data <- function(){
   rawcsvname <- fs::path_package(package = "beginr", "extdata", "ldt_data.csv")

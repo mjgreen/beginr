@@ -16,9 +16,5 @@ Generate long form lexical decision data
 dat_long = manufacture_ldt_long_data()
 str(dat_long)
 summary(dat_long)
-require("ggplot2")
-ggplot(dat_long, aes(x = rt, fill = condition)) +
-  geom_density(alpha = 0.75)+
-  scale_x_continuous(name = "Reaction time (ms)")+
-  scale_fill_discrete(name = "Condition")
+
 }

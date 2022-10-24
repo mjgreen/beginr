@@ -30,23 +30,3 @@ You can install the development version of `beginr` from [GitHub](https://github
 devtools::install_github("mjgreen/beginr")
 ```
 
-## Usage
-
-Generate the `dat_long` data using the command `manufacture_ldt_long_data()`
-
-```{r, show_manufacture_function_howto}
-library("beginr")
-dat_long <- manufacture_ldt_long_data()
-dat_long
-```
-
-See that the data set is in the right form for `ggplot`
-
-```{r, plotDensityByCondition}
-require("ggplot2")
-ggplot(dat_long, aes(x = rt, fill = condition)) +
-  geom_density(alpha = 0.75)+
-  scale_x_continuous(name = "Reaction time (ms)")+
-  scale_fill_discrete(name = "Condition")
-```
-

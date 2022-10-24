@@ -1,11 +1,11 @@
 Package: beginr
 Type: Package
 Title: Help Beginners
-Version: 0.2.1
+Version: 0.4.0
 Author: Matt Green
 Maintainer: Matt Green <mgreen@bournemouth.ac.uk>
-Description: This package provides datasets and functions to help R beginners
-    beginr is made to help specifically with BU's R for beginners course in P101 in October 2022
+Description: This package provides datasets and functions to help R beginners.
+    beginr is made to help specifically with BU's R for beginners course in P101 in October 2022.
 License: MIT + file LICENSE
 LazyData: true
 Depends:
@@ -15,11 +15,7 @@ Imports:
     readr,
     dplyr,
     forcats,
-    tidyr,
-    ggridges,
-    ggplot2,
-    plyr,
-    scales
+    tidyr
 RoxygenNote: 7.2.1
 Encoding: UTF-8
 Suggests: 
