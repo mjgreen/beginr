@@ -1,16 +1,15 @@
-#' Lexical Decision Task Example Data
+#' Lexical Decision Task Example Data in long form
 #'
 #' Simulated Lexical Decision Task data for monolingual and bilingual participants. DVs are mean reaction time (rt) and accuracy (acc) for words and non-words.
 #'
-#' @format A data frame with 100 rows and 7 variables:
+#' @format A data frame with 200 rows and 6 variables:
 #' \describe{
 #'    \item{id}{Participant ID}
 #'    \item{age}{Age of participant in years}
 #'    \item{language}{Languages (1 = monolingual, 2 = bilingual)}
-#'    \item{rt_word}{Mean reaction time (ms) for words}
-#'    \item{rt_nonword}{Mean reaction time (ms) for non-words}
-#'    \item{acc_word}{Accuracy for words}
-#'    \item{acc_nonword}{Accuracy for non-words}
+#'    \item{condition}{Word or Non-Word, a factor}
+#'    \item{rt}{Mean reaction time (ms)}
+#'    \item{acc}{Mean accuracy}
 #' }
 #' @source <https://github.com/PsyTeachR/introdataviz/tree/master/data-raw>
-"ldt_data"
+"dat_long"
