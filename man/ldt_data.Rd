@@ -3,7 +3,7 @@
 \docType{data}
 \name{ldt_data}
 \alias{ldt_data}
-\title{Lexical Decision Task Example Data}
+\title{Lexical Decision Task Example Data in wide form}
 \format{
 ## `ldt_data`
 A data frame with 100 rows and 7 variables:

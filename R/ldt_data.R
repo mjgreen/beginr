@@ -1,4 +1,4 @@
-#' Lexical Decision Task Example Data
+#' Lexical Decision Task Example Data in wide form
 #'
 #' Simulated Lexical Decision Task data for monolingual and bilingual participants. DVs are mean reaction time (rt) and accuracy (acc) for words and non-words.
 #'
